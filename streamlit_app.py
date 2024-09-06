@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
+# Set State ranges for zoom feature
 STATE_BOUNDS = {
     "Alabama": {"lat_range": [30.1, 35.0], "lon_range": [-88.5, -84.9]},
     "Arizona": {"lat_range": [31.3, 37.0], "lon_range": [-114.8, -109.0]},
